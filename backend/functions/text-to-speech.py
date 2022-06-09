@@ -1,9 +1,7 @@
-"""Getting Started Example for Python 2.7+/3.3+"""
 from boto3 import Session
 from botocore.exceptions import BotoCoreError, ClientError
 from contextlib import closing
 import sys
-from tempfile import gettempdir
 
 # Create a client using the credentials and region defined in the [adminuser]
 # section of the AWS credentials file (~/.aws/credentials).
